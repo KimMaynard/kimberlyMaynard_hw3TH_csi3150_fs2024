@@ -1,0 +1,106 @@
+/* import google font */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  --font-primary: #dae026;
+  --font-secondary: #000000;
+  --btn-trans-color: #e56809;
+  /* overflow: hidden; */
+  /* border: hsl(0, 62%, 49%) solid 4px; */
+}
+
+/* styling of hero section */
+main .hero .hero-img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+main .hero .logo-img {
+  position: absolute;
+  width: 60px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+main .hero .title {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  color: var(--font-primary);
+  font-size: 10em;
+  text-align: center;
+}
+
+main .hero .subtitle {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  color: var(--font-primary);
+  font-size: 2em;
+  text-align: center;
+}
+
+main .hero .down-arrow {
+  position: absolute;
+  width: 50px;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+/* styling of intro page */
+main .intro {
+  position: relative;
+}
+
+main .intro .intro-img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+main .intro .section-heading {
+  position: absolute;
+  color: var(--font-secondary);
+  font-size: 3em;
+  left: 25%;
+  top: 45%;
+  transform: translate(-50%, -100%);
+}
+
+main .intro .intro-desc {
+  position: absolute;
+  color: var(--font-secondary);
+  width: 400px;
+  left: 80%;
+  top: 55%;
+  transform: translate(-50%, -100%);
+}
+
+main .intro .cta-btn {
+  position: absolute;
+  left: 80%;
+  top: 62%;
+  padding: 10px;
+  border-radius: 15px;
+  transform: translate(-50%, -100%);
+  background-color: var(--font-primary);
+  transition: background 0.3s ease;
+}
+
+main .intro .cta-btn a {
+  text-decoration: none;
+  color: var(--font-secondary);
+}
+
+main .intro .cta-btn:hover {
+  background-color: var(--btn-trans-color);
+}
