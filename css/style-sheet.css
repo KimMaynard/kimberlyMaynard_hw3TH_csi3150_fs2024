@@ -9,6 +9,7 @@
   --font-primary: #dae026;
   --font-secondary: #000000;
   --btn-trans-color: #e56809;
+  --box-color: #fefffe;
   /* overflow: hidden; */
   /* border: hsl(0, 62%, 49%) solid 4px; */
 }
@@ -285,5 +286,221 @@ main .recommendations .content .reservation-and-contact {
   padding: 0 1.5rem;
   top: 90%;
   left: 70%;
+  transform: translate(-50%, -100%);
+}
+
+/* styling of stats page */
+main .stats {
+  position: relative;
+}
+
+main .stats .stats-img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+main .stats .wrapper1 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--box-color);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  transform: translate(-50%, -100%);
+}
+
+main .stats .wrapper1 .stat-1-num {
+  font-size: 30px;
+}
+
+main .stats .wrapper1 .stat-1-desc {
+  padding: 10px;
+}
+
+main .stats .wrapper2 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--box-color);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  transform: translate(-50%, -100%);
+}
+
+main .stats .wrapper2 .stat-2-num {
+  font-size: 30px;
+}
+
+main .stats .wrapper2 .stat-2-desc {
+  padding: 10px;
+}
+
+main .stats .wrapper3 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--box-color);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  transform: translate(-50%, -100%);
+}
+
+main .stats .wrapper3 .stat-3-num {
+  font-size: 30px;
+}
+
+main .stats .wrapper3 .stat-3-desc {
+  padding: 10px;
+}
+
+main .stats .wrapper4 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--box-color);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 80%;
+  top: 60%;
+  transform: translate(-50%, -100%);
+}
+
+main .stats .wrapper4 .stat-4-num {
+  font-size: 30px;
+}
+
+main .stats .wrapper4 .stat-4-desc {
+  padding: 10px;
+}
+
+/* styling of author page */
+main .author {
+  position: relative;
+}
+
+main .author .author-bg-img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+main .author .author-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 300px;
+  border-radius: 50%;
+  transform: translate(-50%, -100%);
+}
+
+main .author .author-quote {
+  position: absolute;
+  margin: auto;
+  color: var(--font-primary);
+  background: var(--font-secondary);
+  border-radius: 15px;
+  opacity: 0.8;
+  padding: 0 1.5rem;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+main .author .author-name {
+  position: absolute;
+  margin: auto;
+  color: var(--font-primary);
+  background: var(--font-secondary);
+  border-radius: 15px;
+  opacity: 0.8;
+  padding: 0 1.5rem;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+main .author .down-arrow {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -100%);
+}
+
+/* styling of gallery page */
+main .gallery {
+  position: relative;
+  display: flex;
+  gap: 0px;
+}
+
+main .gallery .img-1 {
+  width: 380px;
+}
+
+main .gallery .img-2 {
+  width: 380px;
+}
+
+main .gallery .img-3 {
+  width: 380px;
+}
+
+main .gallery .img-4 {
+  width: 380px;
+}
+
+/* styling of footer */
+footer {
+  position: relative;
+}
+
+footer .footer-img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+footer .contact-header {
+  position: absolute;
+  color: var(--font-primary);
+  font-size: 3em;
+  left: 20%;
+  top: 30%;
+  transform: translate(-50%, -100%);
+}
+
+footer .contact-info {
+  position: absolute;
+  color: var(--font-primary);
+  left: 20%;
+  top: 50%;
+  transform: translate(-50%, -100%);
+}
+
+footer .link-wrapper {
+  position: absolute;
+  display: flex;
+  left: 20%;
+  top: 60%;
   transform: translate(-50%, -100%);
 }
