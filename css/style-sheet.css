@@ -10,7 +10,7 @@
   --font-secondary: #000000;
   --btn-trans-color: #e56809;
   --box-color: #fefffe;
-  /* overflow: hidden; */
+  overflow-x: hidden;
   /* border: hsl(0, 62%, 49%) solid 4px; */
 }
 
