@@ -492,15 +492,76 @@ footer .contact-header {
 footer .contact-info {
   position: absolute;
   color: var(--font-primary);
+  font-size: 20px;
   left: 20%;
-  top: 50%;
+  top: 45%;
   transform: translate(-50%, -100%);
 }
 
 footer .link-wrapper {
   position: absolute;
   display: flex;
-  left: 20%;
-  top: 60%;
+  left: 19%;
+  top: 51%;
   transform: translate(-50%, -100%);
+}
+
+footer .contact-form {
+  position: absolute;
+  left: 75%;
+  top: 75%;
+  transform: translate(-50%, -100%);
+}
+
+footer .contact-form table tr td {
+  padding: 5px;
+}
+
+footer .contact-form table tr td .name-sect {
+  width: 350px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+footer .contact-form table tr td .email-sect {
+  width: 350px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+footer .contact-form table tr td .message-sect {
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+footer .contact-form {
+  margin: 2px;
+  background: var(--font-secondary);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+footer .contact-form .btn-wrapper {
+  padding: 5px;
+}
+
+footer .contact-form .btn-wrapper .submit-btn {
+  border-radius: 10px;
+  background-color: var(--font-primary);
+  width: 100px;
+  height: 25px;
+  transition: background 0.3s ease;
+}
+
+footer .contact-form .btn-wrapper .submit-btn a {
+  text-decoration: none;
+  color: var(--font-secondary);
+}
+
+footer .contact-form .btn-wrapper .submit-btn:hover {
+  background-color: var(--btn-trans-color);
 }
